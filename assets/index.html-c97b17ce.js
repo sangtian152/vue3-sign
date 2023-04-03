@@ -1,0 +1,7 @@
+import{_ as c,M as l,p as i,q as r,N as s,V as a,R as e,t as n}from"./framework-f9b9c660.js";const d={},u=e("h3",{id:"安装",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#安装","aria-hidden":"true"},"#"),n(" 安装")],-1),m=e("div",{class:"language-bash line-numbers-mode","data-ext":"sh"},[e("pre",{class:"language-bash"},[e("code",null,[e("span",{class:"token comment"},"# install in your project"),n(`
+`),e("span",{class:"token function"},"yarn"),n(),e("span",{class:"token function"},"add"),n(` vue3-sign
+
+`)])]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"})])],-1),p=e("div",{class:"language-bash line-numbers-mode","data-ext":"sh"},[e("pre",{class:"language-bash"},[e("code",null,[e("span",{class:"token comment"},"# install in your project"),n(`
+`),e("span",{class:"token function"},"npm"),n(),e("span",{class:"token function"},"install"),n(),e("span",{class:"token parameter variable"},"-S"),n(` vue3-tree-org
+
+`)])]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"})])],-1);function _(h,v){const t=l("CodeGroupItem"),o=l("CodeGroup");return i(),r("div",null,[u,s(o,null,{default:a(()=>[s(t,{title:"YARN",active:""},{default:a(()=>[m]),_:1}),s(t,{title:"NPM"},{default:a(()=>[p]),_:1})]),_:1})])}const f=c(d,[["render",_],["__file","index.html.vue"]]);export{f as default};
