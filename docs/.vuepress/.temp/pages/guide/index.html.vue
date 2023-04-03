@@ -1,5 +1,5 @@
 <template><div><h3 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h3>
-<p>一个简易签名组件，基于vue和canvas。</p>
+<p>一个简易签名组件，基于vue3和canvas。</p>
 <h3 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h3>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> i @sangtian152/vue3-sign <span class="token parameter variable">-S</span>
 <span class="token comment"># or </span>

@@ -35,7 +35,7 @@ export const config = {
   title: 'vue3-sign',
   base: '/vue3-sign/',
   dest: 'dist',
-  description: '基于vue3.x的组织架构图',
+  description: '基于vue3.x的签名组件',
   plugins: [
     [
       '@vuepress/register-components',
