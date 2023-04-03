@@ -1,18 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# zm-sign
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 介绍
+一个简易签名组件，基于vue和canvas。
 
-## Recommended IDE Setup
+### 安装
+```
+npm i @sangtian152/vue3-sign -S
+# or 
+yarn add @sangtian152/vue3-sign
+```
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 引入
+```
+import { createApp } from 'vue'
+import vue3Sign from '@sangtian152/vue3-sign';
+import "@sangtian152/vue3-sign/lib/style.css";
 
-## Type Support For `.vue` Imports in TS
+const app = createApp(App)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+app.use(vue3Sign)
+app.mount('#app')
+```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### 最新版本
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+[![NPM version](https://img.shields.io/npm/v/@sangtian152/vue3-sign)](https://www.npmjs.com/package/@sangtian152/vue3-sign)
+
+### 文档
+
+[说明文档](https://sangtian152.github.io/vue3-sign/).

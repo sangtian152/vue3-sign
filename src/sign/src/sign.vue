@@ -52,7 +52,7 @@
     this.canvas = canvas; */
     const canvas = canvasRef.value as HTMLCanvasElement
     canvas.style.background = props.bgColor;
-    canvasTxt.value = canvas.getContext("2d");
+    canvasTxt.value = canvas.getContext("2d", { willReadFrequently: true });
     resizeRender(true);
     // 在画板以外松开鼠标后冻结画笔
     document.onmouseup = () => {
@@ -206,7 +206,7 @@
         if (props.crop) {
           const crop_area = getCropArea(ImgData.data);
           const crop_canvas = document.createElement("canvas");
-          const crop_ctx = crop_canvas.getContext("2d") as CanvasRenderingContext2D;
+          const crop_ctx = crop_canvas.getContext("2d", { willReadFrequently: true }) as CanvasRenderingContext2D;
           crop_canvas.width = crop_area[2] - crop_area[0];
           crop_canvas.height = crop_area[3] - crop_area[1];
           const crop_imgData = ctx.getImageData(...crop_area);
