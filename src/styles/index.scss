@@ -16,11 +16,20 @@ body{
       }
    }
   }
+  .can_vans {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 3px;
+    canvas {
+      border: 1px dashed #ddd;
+      vertical-align: middle;
+    }
+  }
   .zm-sign-handle {
     padding: 10px;
     text-align: center;
   }
-  .zm-buttom {
+  .zm-button {
     line-height: 1;
     background: #fff;
     border: 1px solid #dcdfe6;
@@ -32,7 +41,7 @@ body{
     padding: 12px 20px;
     font-size: 14px;
     border-radius: 4px;
-    & + .zm-buttom{
+    & + .zm-button{
       margin-left: 10px;
     }
     &.zm-button--mini {

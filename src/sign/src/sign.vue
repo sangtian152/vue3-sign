@@ -14,10 +14,10 @@
       ></canvas>
     </div>
     <div v-if="footer" class="zm-sign-handle">
-      <button class="zm-buttom zm-button--mini" @click="handleClear">
+      <button class="zm-button zm-button--mini" @click="handleClear">
         清空
       </button>
-      <button class="zm-buttom zm-button--mini" @click="handleDone">
+      <button class="zm-button zm-button--mini" @click="handleDone">
         完成
       </button>
     </div>
@@ -372,14 +372,3 @@
       done
     })
 </script>
-<style lang="scss" scoped>
-.can_vans {
-  position: relative;
-  border: 1px solid #ddd;
-  padding: 3px;
-  canvas {
-    border: 1px dashed #ddd;
-    vertical-align: middle;
-  }
-}
-</style>

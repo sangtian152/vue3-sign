@@ -2,7 +2,7 @@
   "name": "@sangtian152/vue3-sign",
   "author": "sangtian152",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/vue3-sign.umd.js",
   "module": "lib/vue3-sign.mjs",
   "exports": {

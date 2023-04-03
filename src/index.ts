@@ -2,6 +2,8 @@
 import corePlugin from './plugin/core'
 // 组件
 import Vue3Sign from './sign'
+import '@/styles/index.scss'
+
 import type { App } from 'vue'
 
 const components = [
