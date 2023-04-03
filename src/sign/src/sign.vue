@@ -2,7 +2,7 @@
   <div class="zm-sign">
     <div v-if="erasable" class="zm-sign-tool">
       <span
-        :class="['iconfont', 'icon-eraser', { active: clip }]"
+        :class="['signfont', 'icon-eraser', { active: clip }]"
         @click="doErase(!clip)"
       ></span>
     </div>

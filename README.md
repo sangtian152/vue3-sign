@@ -1,7 +1,7 @@
-# zm-sign
+# vue3-sign
 
 ## 介绍
-一个简易签名组件，基于vue和canvas。
+一个简易签名组件，基于vue3和canvas。
 
 ### 安装
 ```
